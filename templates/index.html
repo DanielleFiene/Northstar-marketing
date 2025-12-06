@@ -28,31 +28,30 @@ isAvailableForNewContent: true
 
   <!-- Favicons -->
   <link rel="canonical" href="https://www.northstarmarketing.es/" />
-  <link rel="icon" type="image/x-icon" href="{{ get_asset_url('./images/favicon/favicon.ico') }}" />
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_asset_url('./images/favicon/favicon-32x32.png') }}" />
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_asset_url('./images/favicon/favicon-16x16.png') }}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_asset_url('./images/favicon/apple-touch-icon.png') }}" />
-  <link rel="icon" type="image/png" sizes="192x192" href="{{ get_asset_url('./images/favicon/android-chrome-192x192.png') }}" />
-  <link rel="icon" type="image/png" sizes="512x512" href="{{ get_asset_url('./images/favicon/android-chrome-512x512.png') }}" />
-  <link rel="manifest" href="{{ get_asset_url('./images/favicon/site.webmanifest') }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_asset_url('../images/favicon/favicon-32x32.png') }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_asset_url('../images/favicon/favicon-16x16.png') }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_asset_url('../images/favicon/apple-touch-icon.png') }}" />
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ get_asset_url('../images/favicon/android-chrome-192x192.png') }}" />
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ get_asset_url('../images/favicon/android-chrome-512x512.png') }}" />
 
   <!-- Stylesheets -->
-  <link href="{{ get_asset_url('./css/normalize.css') }}" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="{{ get_asset_url('./css/styles.css') }}" type="text/css" />
+  <link href="{{ get_asset_url('../css/normalize.css') }}" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="{{ get_asset_url('../css/styles.css') }}" type="text/css" />
   <script src="https://kit.fontawesome.com/56e9e1144f.js" crossorigin="anonymous"></script>
   <title>North Star Marketing - HubSpot Automation for B2B Teams</title>
+  {{ standard_header_includes }}
 </head>
 <body>
   <!-- Header -->
   <header class="header">
     <nav class="nav">
       <div class="nav-logo-mobile">
-        <img src="{{ get_asset_url('./images/logo/NSM_logo_1.webp') }}" alt="North Star Marketing logo" />
+        <img src="{{ get_asset_url('../images/logo/NSM_logo_1.png') }}" alt="North Star Marketing logo" />
       </div>
       <div class="nav-right">
         <ul class="nav-list">
           <li class="nav-item nav-item-logo">
-            <img src="{{ get_asset_url('./images/logo/NSM_logo_1.webp') }}" alt="North Star Marketing logo" />
+            <img src="{{ get_asset_url('../images/logo/NSM_logo_1.png') }}" alt="North Star Marketing logo" />
           </li>
           <li class="nav-item"><a href="index.html">Home</a></li>
           <li class="nav-item"><a href="about.html">About</a></li>
@@ -137,7 +136,7 @@ isAvailableForNewContent: true
             </div>
           </div>
           <div class="what-we-fix__image">
-            <img src="{{ get_asset_url('./images/NSM_consultancy.webp') }}" alt="HubSpot consultancy services" />
+            <img src="{{ get_asset_url('../images/NSM_consultancy.png') }}" alt="HubSpot consultancy services" />
           </div>
         </div>
       </div>
@@ -269,18 +268,6 @@ isAvailableForNewContent: true
         <a href="https://www.linkedin.com/company/north-star-marketing-sl/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-linkedin">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-facebook">
-          <i class="fa-brands fa-square-facebook"></i>
-        </a>
-        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" class="social-x">
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-        <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-tiktok">
-          <i class="fa-brands fa-tiktok"></i>
-        </a>
       </div>
     </div>
 
@@ -310,6 +297,7 @@ isAvailableForNewContent: true
   </svg>
 
   <!-- Scripts -->
-  <script src="{{ get_asset_url('./js/main.js') }}"></script>
+  <script src="{{ get_asset_url('../js/main.js') }}"></script>
+  {{ standard_footer_includes }}
 </body>
 </html>
